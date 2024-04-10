@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		114080CE2BC6424100BF3DD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080CD2BC6424100BF3DD6 /* AppDelegate.swift */; };
+		114080D02BC6424100BF3DD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080CF2BC6424100BF3DD6 /* SceneDelegate.swift */; };
+		114080D22BC6424100BF3DD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080D12BC6424100BF3DD6 /* ViewController.swift */; };
+		114080D52BC6424100BF3DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114080D32BC6424100BF3DD6 /* Main.storyboard */; };
+		114080D72BC6424200BF3DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114080D62BC6424200BF3DD6 /* Assets.xcassets */; };
+		114080DA2BC6424200BF3DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114080D82BC6424200BF3DD6 /* LaunchScreen.storyboard */; };
+		114080E52BC6424200BF3DD6 /* VendevryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080E42BC6424200BF3DD6 /* VendevryTests.swift */; };
+		114080EF2BC6424200BF3DD6 /* VendevryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080EE2BC6424200BF3DD6 /* VendevryUITests.swift */; };
+		114080F12BC6424200BF3DD6 /* VendevryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080F02BC6424200BF3DD6 /* VendevryUITestsLaunchTests.swift */; };
+		114080FF2BC679C500BF3DD6 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080FE2BC679C300BF3DD6 /* AppColor.swift */; };
+		114081012BC679E600BF3DD6 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114081002BC679E600BF3DD6 /* AppFont.swift */; };
+		114081032BC679EF00BF3DD6 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114081022BC679EF00BF3DD6 /* AppImage.swift */; };
+		114081052BC679F400BF3DD6 /* AppSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114081042BC679F400BF3DD6 /* AppSound.swift */; };
+		11C38A142BC6809F00B023DA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C38A132BC6809F00B023DA /* Home.swift */; };
+		1C83E8BA066AD3C68F0EB3A6 /* Pods_VendevryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68A01CBC047ECC0E7396783 /* Pods_VendevryTests.framework */; };
+		7437EF5F5C372E4F58B88625 /* Pods_Vendevry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD2BFC669109228733C0AE /* Pods_Vendevry.framework */; };
+		945AC3D23CBB2C3B1FC81903 /* Pods_Vendevry_VendevryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A32F376FED7E0E0155DA2A /* Pods_Vendevry_VendevryUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		114080E12BC6424200BF3DD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114080C22BC6424100BF3DD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 114080C92BC6424100BF3DD6;
+			remoteInfo = Vendevry;
+		};
+		114080EB2BC6424200BF3DD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114080C22BC6424100BF3DD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 114080C92BC6424100BF3DD6;
+			remoteInfo = Vendevry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FD2BFC669109228733C0AE /* Pods_Vendevry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vendevry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		114080CA2BC6424100BF3DD6 /* Vendevry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vendevry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		114080CD2BC6424100BF3DD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		114080CF2BC6424100BF3DD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		114080D12BC6424100BF3DD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		114080D42BC6424100BF3DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		114080D62BC6424200BF3DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		114080D92BC6424200BF3DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		114080DB2BC6424200BF3DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114080E02BC6424200BF3DD6 /* VendevryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendevryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		114080E42BC6424200BF3DD6 /* VendevryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendevryTests.swift; sourceTree = "<group>"; };
+		114080EA2BC6424200BF3DD6 /* VendevryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendevryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		114080EE2BC6424200BF3DD6 /* VendevryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendevryUITests.swift; sourceTree = "<group>"; };
+		114080F02BC6424200BF3DD6 /* VendevryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendevryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		114080FE2BC679C300BF3DD6 /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppColor.swift; path = ../../../Core/Core/Classes/Resources/AppColor.swift; sourceTree = "<group>"; };
+		114081002BC679E600BF3DD6 /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppFont.swift; path = ../../../Core/Core/Classes/Resources/AppFont.swift; sourceTree = "<group>"; };
+		114081022BC679EF00BF3DD6 /* AppImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppImage.swift; path = ../../../Core/Core/Classes/Resources/AppImage.swift; sourceTree = "<group>"; };
+		114081042BC679F400BF3DD6 /* AppSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSound.swift; path = ../../../Core/Core/Classes/Resources/AppSound.swift; sourceTree = "<group>"; };
+		11C38A132BC6809F00B023DA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1936C7060008238941DF9067 /* Pods-Vendevry-VendevryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendevry-VendevryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Vendevry-VendevryUITests/Pods-Vendevry-VendevryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD2E26071DBAE40775C3D10 /* Pods-VendevryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendevryTests.release.xcconfig"; path = "Target Support Files/Pods-VendevryTests/Pods-VendevryTests.release.xcconfig"; sourceTree = "<group>"; };
+		B058B5427516A2D7DC094B77 /* Pods-Vendevry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendevry.release.xcconfig"; path = "Target Support Files/Pods-Vendevry/Pods-Vendevry.release.xcconfig"; sourceTree = "<group>"; };
+		C09E0AAE2A93F2145E170C68 /* Pods-Vendevry-VendevryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendevry-VendevryUITests.release.xcconfig"; path = "Target Support Files/Pods-Vendevry-VendevryUITests/Pods-Vendevry-VendevryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3A32F376FED7E0E0155DA2A /* Pods_Vendevry_VendevryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vendevry_VendevryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C864467948A17D8C1C60A5D2 /* Pods-Vendevry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendevry.debug.xcconfig"; path = "Target Support Files/Pods-Vendevry/Pods-Vendevry.debug.xcconfig"; sourceTree = "<group>"; };
+		E68A01CBC047ECC0E7396783 /* Pods_VendevryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendevryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9B260EDA50FB871A70BE6A /* Pods-VendevryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendevryTests.debug.xcconfig"; path = "Target Support Files/Pods-VendevryTests/Pods-VendevryTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		114080C72BC6424100BF3DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7437EF5F5C372E4F58B88625 /* Pods_Vendevry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114080DD2BC6424200BF3DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C83E8BA066AD3C68F0EB3A6 /* Pods_VendevryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114080E72BC6424200BF3DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945AC3D23CBB2C3B1FC81903 /* Pods_Vendevry_VendevryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114080C12BC6424100BF3DD6 = {
+			isa = PBXGroup;
+			children = (
+				114080CC2BC6424100BF3DD6 /* Vendevry */,
+				114080E32BC6424200BF3DD6 /* VendevryTests */,
+				114080ED2BC6424200BF3DD6 /* VendevryUITests */,
+				114080CB2BC6424100BF3DD6 /* Products */,
+				1468758191E8C2450955D759 /* Pods */,
+				D61440A6ADADD6D1558002DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		114080CB2BC6424100BF3DD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				114080CA2BC6424100BF3DD6 /* Vendevry.app */,
+				114080E02BC6424200BF3DD6 /* VendevryTests.xctest */,
+				114080EA2BC6424200BF3DD6 /* VendevryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		114080CC2BC6424100BF3DD6 /* Vendevry */ = {
+			isa = PBXGroup;
+			children = (
+				114081062BC67DCF00BF3DD6 /* ViewController */,
+				114080FD2BC674F900BF3DD6 /* Config */,
+				114080CD2BC6424100BF3DD6 /* AppDelegate.swift */,
+				114080CF2BC6424100BF3DD6 /* SceneDelegate.swift */,
+				114080D32BC6424100BF3DD6 /* Main.storyboard */,
+				114080D62BC6424200BF3DD6 /* Assets.xcassets */,
+				114080D82BC6424200BF3DD6 /* LaunchScreen.storyboard */,
+				114080DB2BC6424200BF3DD6 /* Info.plist */,
+			);
+			path = Vendevry;
+			sourceTree = "<group>";
+		};
+		114080E32BC6424200BF3DD6 /* VendevryTests */ = {
+			isa = PBXGroup;
+			children = (
+				114080E42BC6424200BF3DD6 /* VendevryTests.swift */,
+			);
+			path = VendevryTests;
+			sourceTree = "<group>";
+		};
+		114080ED2BC6424200BF3DD6 /* VendevryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				114080EE2BC6424200BF3DD6 /* VendevryUITests.swift */,
+				114080F02BC6424200BF3DD6 /* VendevryUITestsLaunchTests.swift */,
+			);
+			path = VendevryUITests;
+			sourceTree = "<group>";
+		};
+		114080FD2BC674F900BF3DD6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				114081042BC679F400BF3DD6 /* AppSound.swift */,
+				114081022BC679EF00BF3DD6 /* AppImage.swift */,
+				114081002BC679E600BF3DD6 /* AppFont.swift */,
+				114080FE2BC679C300BF3DD6 /* AppColor.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		114081062BC67DCF00BF3DD6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				114080D12BC6424100BF3DD6 /* ViewController.swift */,
+				11C38A132BC6809F00B023DA /* Home.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		1468758191E8C2450955D759 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C864467948A17D8C1C60A5D2 /* Pods-Vendevry.debug.xcconfig */,
+				B058B5427516A2D7DC094B77 /* Pods-Vendevry.release.xcconfig */,
+				1936C7060008238941DF9067 /* Pods-Vendevry-VendevryUITests.debug.xcconfig */,
+				C09E0AAE2A93F2145E170C68 /* Pods-Vendevry-VendevryUITests.release.xcconfig */,
+				FC9B260EDA50FB871A70BE6A /* Pods-VendevryTests.debug.xcconfig */,
+				5FD2E26071DBAE40775C3D10 /* Pods-VendevryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D61440A6ADADD6D1558002DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FD2BFC669109228733C0AE /* Pods_Vendevry.framework */,
+				C3A32F376FED7E0E0155DA2A /* Pods_Vendevry_VendevryUITests.framework */,
+				E68A01CBC047ECC0E7396783 /* Pods_VendevryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		114080C92BC6424100BF3DD6 /* Vendevry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114080F42BC6424200BF3DD6 /* Build configuration list for PBXNativeTarget "Vendevry" */;
+			buildPhases = (
+				60F58ADA9C2D1A6D930F47A5 /* [CP] Check Pods Manifest.lock */,
+				114080C62BC6424100BF3DD6 /* Sources */,
+				114080C72BC6424100BF3DD6 /* Frameworks */,
+				114080C82BC6424100BF3DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vendevry;
+			productName = Vendevry;
+			productReference = 114080CA2BC6424100BF3DD6 /* Vendevry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		114080DF2BC6424200BF3DD6 /* VendevryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114080F72BC6424200BF3DD6 /* Build configuration list for PBXNativeTarget "VendevryTests" */;
+			buildPhases = (
+				10A7E7894B2BA1498EDF672E /* [CP] Check Pods Manifest.lock */,
+				114080DC2BC6424200BF3DD6 /* Sources */,
+				114080DD2BC6424200BF3DD6 /* Frameworks */,
+				114080DE2BC6424200BF3DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				114080E22BC6424200BF3DD6 /* PBXTargetDependency */,
+			);
+			name = VendevryTests;
+			productName = VendevryTests;
+			productReference = 114080E02BC6424200BF3DD6 /* VendevryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		114080E92BC6424200BF3DD6 /* VendevryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114080FA2BC6424200BF3DD6 /* Build configuration list for PBXNativeTarget "VendevryUITests" */;
+			buildPhases = (
+				D98A764ABC8F9027AFA167FD /* [CP] Check Pods Manifest.lock */,
+				114080E62BC6424200BF3DD6 /* Sources */,
+				114080E72BC6424200BF3DD6 /* Frameworks */,
+				114080E82BC6424200BF3DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				114080EC2BC6424200BF3DD6 /* PBXTargetDependency */,
+			);
+			name = VendevryUITests;
+			productName = VendevryUITests;
+			productReference = 114080EA2BC6424200BF3DD6 /* VendevryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		114080C22BC6424100BF3DD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					114080C92BC6424100BF3DD6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					114080DF2BC6424200BF3DD6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 114080C92BC6424100BF3DD6;
+					};
+					114080E92BC6424200BF3DD6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 114080C92BC6424100BF3DD6;
+					};
+				};
+			};
+			buildConfigurationList = 114080C52BC6424100BF3DD6 /* Build configuration list for PBXProject "Vendevry" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 114080C12BC6424100BF3DD6;
+			productRefGroup = 114080CB2BC6424100BF3DD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				114080C92BC6424100BF3DD6 /* Vendevry */,
+				114080DF2BC6424200BF3DD6 /* VendevryTests */,
+				114080E92BC6424200BF3DD6 /* VendevryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		114080C82BC6424100BF3DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114080DA2BC6424200BF3DD6 /* LaunchScreen.storyboard in Resources */,
+				114080D72BC6424200BF3DD6 /* Assets.xcassets in Resources */,
+				114080D52BC6424100BF3DD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114080DE2BC6424200BF3DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114080E82BC6424200BF3DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10A7E7894B2BA1498EDF672E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VendevryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F58ADA9C2D1A6D930F47A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vendevry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D98A764ABC8F9027AFA167FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vendevry-VendevryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		114080C62BC6424100BF3DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114080D22BC6424100BF3DD6 /* ViewController.swift in Sources */,
+				114081052BC679F400BF3DD6 /* AppSound.swift in Sources */,
+				114081012BC679E600BF3DD6 /* AppFont.swift in Sources */,
+				114080FF2BC679C500BF3DD6 /* AppColor.swift in Sources */,
+				114080CE2BC6424100BF3DD6 /* AppDelegate.swift in Sources */,
+				114080D02BC6424100BF3DD6 /* SceneDelegate.swift in Sources */,
+				11C38A142BC6809F00B023DA /* Home.swift in Sources */,
+				114081032BC679EF00BF3DD6 /* AppImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114080DC2BC6424200BF3DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114080E52BC6424200BF3DD6 /* VendevryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114080E62BC6424200BF3DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114080F12BC6424200BF3DD6 /* VendevryUITestsLaunchTests.swift in Sources */,
+				114080EF2BC6424200BF3DD6 /* VendevryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		114080E22BC6424200BF3DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 114080C92BC6424100BF3DD6 /* Vendevry */;
+			targetProxy = 114080E12BC6424200BF3DD6 /* PBXContainerItemProxy */;
+		};
+		114080EC2BC6424200BF3DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 114080C92BC6424100BF3DD6 /* Vendevry */;
+			targetProxy = 114080EB2BC6424200BF3DD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		114080D32BC6424100BF3DD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114080D42BC6424100BF3DD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		114080D82BC6424200BF3DD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114080D92BC6424200BF3DD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		114080F22BC6424200BF3DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		114080F32BC6424200BF3DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		114080F52BC6424200BF3DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C864467948A17D8C1C60A5D2 /* Pods-Vendevry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vendevry/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vendevry.Vendevry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		114080F62BC6424200BF3DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B058B5427516A2D7DC094B77 /* Pods-Vendevry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vendevry/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vendevry.Vendevry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		114080F82BC6424200BF3DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9B260EDA50FB871A70BE6A /* Pods-VendevryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vendevry.VendevryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vendevry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vendevry";
+			};
+			name = Debug;
+		};
+		114080F92BC6424200BF3DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD2E26071DBAE40775C3D10 /* Pods-VendevryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vendevry.VendevryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vendevry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vendevry";
+			};
+			name = Release;
+		};
+		114080FB2BC6424200BF3DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1936C7060008238941DF9067 /* Pods-Vendevry-VendevryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vendevry.VendevryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vendevry;
+			};
+			name = Debug;
+		};
+		114080FC2BC6424200BF3DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09E0AAE2A93F2145E170C68 /* Pods-Vendevry-VendevryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vendevry.VendevryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vendevry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114080C52BC6424100BF3DD6 /* Build configuration list for PBXProject "Vendevry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114080F22BC6424200BF3DD6 /* Debug */,
+				114080F32BC6424200BF3DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114080F42BC6424200BF3DD6 /* Build configuration list for PBXNativeTarget "Vendevry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114080F52BC6424200BF3DD6 /* Debug */,
+				114080F62BC6424200BF3DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114080F72BC6424200BF3DD6 /* Build configuration list for PBXNativeTarget "VendevryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114080F82BC6424200BF3DD6 /* Debug */,
+				114080F92BC6424200BF3DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114080FA2BC6424200BF3DD6 /* Build configuration list for PBXNativeTarget "VendevryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114080FB2BC6424200BF3DD6 /* Debug */,
+				114080FC2BC6424200BF3DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 114080C22BC6424100BF3DD6 /* Project object */;
+}

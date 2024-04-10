@@ -1,0 +1,6 @@
+framework module Pods_Vendevry_VendevryUITests {
+  umbrella header "Pods-Vendevry-VendevryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
