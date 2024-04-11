@@ -36,6 +36,10 @@ class ViewController: UIViewController {
         loginButton.setTitleColor(.black, for: .normal)
         signupButton.backgroundColor = nil
         signupButton.setTitleColor(.white, for: .normal)
+        
+        
+        let vc = UIStoryboard(name: "Intermediate", bundle: nil).instantiateViewController(identifier: "IntermediateViewController") as! IntermediateViewController
+        Presenter.presentViewController(vc, animated: true)
     }
     
     @IBAction func sign_up(_ sender: Any) {

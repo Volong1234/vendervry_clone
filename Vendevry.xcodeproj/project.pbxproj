@@ -20,7 +20,11 @@
 		114081012BC679E600BF3DD6 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114081002BC679E600BF3DD6 /* AppFont.swift */; };
 		114081032BC679EF00BF3DD6 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114081022BC679EF00BF3DD6 /* AppImage.swift */; };
 		114081052BC679F400BF3DD6 /* AppSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114081042BC679F400BF3DD6 /* AppSound.swift */; };
-		11C38A142BC6809F00B023DA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C38A132BC6809F00B023DA /* Home.swift */; };
+		118970682BC7875E00AE010A /* IntermediateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118970662BC7875E00AE010A /* IntermediateViewController.swift */; };
+		1189706D2BC789CB00AE010A /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189706C2BC789CB00AE010A /* Presenter.swift */; };
+		1189706F2BC78B4400AE010A /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189706E2BC78B4400AE010A /* CustomNavigationController.swift */; };
+		118970732BC7927E00AE010A /* Intermediate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118970722BC7927E00AE010A /* Intermediate.storyboard */; };
+		118970762BC7A28E00AE010A /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118970752BC7A28E00AE010A /* BaseVC.swift */; };
 		1C83E8BA066AD3C68F0EB3A6 /* Pods_VendevryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68A01CBC047ECC0E7396783 /* Pods_VendevryTests.framework */; };
 		7437EF5F5C372E4F58B88625 /* Pods_Vendevry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD2BFC669109228733C0AE /* Pods_Vendevry.framework */; };
 		945AC3D23CBB2C3B1FC81903 /* Pods_Vendevry_VendevryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A32F376FED7E0E0155DA2A /* Pods_Vendevry_VendevryUITests.framework */; };
@@ -62,7 +66,11 @@
 		114081002BC679E600BF3DD6 /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppFont.swift; path = ../../../Core/Core/Classes/Resources/AppFont.swift; sourceTree = "<group>"; };
 		114081022BC679EF00BF3DD6 /* AppImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppImage.swift; path = ../../../Core/Core/Classes/Resources/AppImage.swift; sourceTree = "<group>"; };
 		114081042BC679F400BF3DD6 /* AppSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSound.swift; path = ../../../Core/Core/Classes/Resources/AppSound.swift; sourceTree = "<group>"; };
-		11C38A132BC6809F00B023DA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		118970662BC7875E00AE010A /* IntermediateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateViewController.swift; sourceTree = "<group>"; };
+		1189706C2BC789CB00AE010A /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		1189706E2BC78B4400AE010A /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		118970722BC7927E00AE010A /* Intermediate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intermediate.storyboard; sourceTree = "<group>"; };
+		118970752BC7A28E00AE010A /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		1936C7060008238941DF9067 /* Pods-Vendevry-VendevryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendevry-VendevryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Vendevry-VendevryUITests/Pods-Vendevry-VendevryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FD2E26071DBAE40775C3D10 /* Pods-VendevryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendevryTests.release.xcconfig"; path = "Target Support Files/Pods-VendevryTests/Pods-VendevryTests.release.xcconfig"; sourceTree = "<group>"; };
 		B058B5427516A2D7DC094B77 /* Pods-Vendevry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendevry.release.xcconfig"; path = "Target Support Files/Pods-Vendevry/Pods-Vendevry.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +134,9 @@
 		114080CC2BC6424100BF3DD6 /* Vendevry */ = {
 			isa = PBXGroup;
 			children = (
+				118970742BC7A26600AE010A /* Custom */,
+				1189706B2BC7897F00AE010A /* Core */,
+				1189706A2BC7879C00AE010A /* Storyboard */,
 				114081062BC67DCF00BF3DD6 /* ViewController */,
 				114080FD2BC674F900BF3DD6 /* Config */,
 				114080CD2BC6424100BF3DD6 /* AppDelegate.swift */,
@@ -170,9 +181,34 @@
 			isa = PBXGroup;
 			children = (
 				114080D12BC6424100BF3DD6 /* ViewController.swift */,
-				11C38A132BC6809F00B023DA /* Home.swift */,
+				118970662BC7875E00AE010A /* IntermediateViewController.swift */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		1189706A2BC7879C00AE010A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				118970722BC7927E00AE010A /* Intermediate.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1189706B2BC7897F00AE010A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1189706C2BC789CB00AE010A /* Presenter.swift */,
+				1189706E2BC78B4400AE010A /* CustomNavigationController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		118970742BC7A26600AE010A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				118970752BC7A28E00AE010A /* BaseVC.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 		1468758191E8C2450955D759 /* Pods */ = {
@@ -306,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				114080DA2BC6424200BF3DD6 /* LaunchScreen.storyboard in Resources */,
+				118970732BC7927E00AE010A /* Intermediate.storyboard in Resources */,
 				114080D72BC6424200BF3DD6 /* Assets.xcassets in Resources */,
 				114080D52BC6424100BF3DD6 /* Main.storyboard in Resources */,
 			);
@@ -401,13 +438,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1189706F2BC78B4400AE010A /* CustomNavigationController.swift in Sources */,
+				118970762BC7A28E00AE010A /* BaseVC.swift in Sources */,
 				114080D22BC6424100BF3DD6 /* ViewController.swift in Sources */,
 				114081052BC679F400BF3DD6 /* AppSound.swift in Sources */,
 				114081012BC679E600BF3DD6 /* AppFont.swift in Sources */,
 				114080FF2BC679C500BF3DD6 /* AppColor.swift in Sources */,
+				1189706D2BC789CB00AE010A /* Presenter.swift in Sources */,
 				114080CE2BC6424100BF3DD6 /* AppDelegate.swift in Sources */,
 				114080D02BC6424100BF3DD6 /* SceneDelegate.swift in Sources */,
-				11C38A142BC6809F00B023DA /* Home.swift in Sources */,
+				118970682BC7875E00AE010A /* IntermediateViewController.swift in Sources */,
 				114081032BC679EF00BF3DD6 /* AppImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
