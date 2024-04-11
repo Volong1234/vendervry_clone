@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 448" translatesAutoresizingMaskIntoConstraints="NO" id="Qzb-cZ-uhy">
-                                <rect key="frame" x="0.0" y="0.0" width="423" height="360.66666666666669"/>
+                                <rect key="frame" x="0.0" y="0.0" width="423" height="340.66666666666669"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Px-Uj-Hsv">
                                 <rect key="frame" x="0.0" y="802" width="393" height="34"/>
@@ -25,7 +25,7 @@
                                 <state key="normal" title="Need, help?"/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sVp-aj-n5c">
-                                <rect key="frame" x="24" y="392.66666666666669" width="345" height="200.00000000000006"/>
+                                <rect key="frame" x="24" y="372.66666666666669" width="345" height="200.00000000000006"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, Long" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTF-tV-PjY">
                                         <rect key="frame" x="130.66666666666666" y="8" width="83.666666666666657" height="20"/>
@@ -102,6 +102,7 @@
                             <constraint firstItem="sVp-aj-n5c" firstAttribute="top" secondItem="Qzb-cZ-uhy" secondAttribute="bottom" constant="32" id="P9f-sT-UeY"/>
                             <constraint firstAttribute="bottom" secondItem="2Px-Uj-Hsv" secondAttribute="bottom" constant="16" id="X8c-a5-hPX"/>
                             <constraint firstItem="sVp-aj-n5c" firstAttribute="leading" secondItem="mwf-aB-NT6" secondAttribute="leading" constant="24" id="Ykq-UQ-QLe"/>
+                            <constraint firstItem="Qzb-cZ-uhy" firstAttribute="height" secondItem="dSC-VJ-cnZ" secondAttribute="height" multiplier="0.4" id="bLi-kJ-Beb"/>
                             <constraint firstItem="2Px-Uj-Hsv" firstAttribute="leading" secondItem="mwf-aB-NT6" secondAttribute="leading" id="fvg-4f-VFD"/>
                             <constraint firstItem="Qzb-cZ-uhy" firstAttribute="leading" secondItem="mwf-aB-NT6" secondAttribute="leading" id="fzQ-62-yRN"/>
                             <constraint firstItem="mwf-aB-NT6" firstAttribute="trailing" secondItem="2Px-Uj-Hsv" secondAttribute="trailing" id="vI9-FF-Mws"/>
