@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Popup View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="popupViewController" id="Y6W-OH-hqX" customClass="popupViewController" customModule="Vendevry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1At-u8-w7Q">
+                                <rect key="frame" x="32" y="303.66666666666669" width="329" height="270.00000000000006"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CRE-Kk-qpr">
+                                        <rect key="frame" x="301" y="8" width="20" height="20"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwt-qW-Hfr">
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="close"/>
+                                                <connections>
+                                                    <action selector="dissmiss:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="98h-sU-PtF"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="bwt-qW-Hfr" secondAttribute="bottom" id="dFa-PJ-N9P"/>
+                                            <constraint firstItem="bwt-qW-Hfr" firstAttribute="top" secondItem="CRE-Kk-qpr" secondAttribute="top" id="h4Q-WD-UGr"/>
+                                            <constraint firstAttribute="width" constant="20" id="jkv-e7-U3v"/>
+                                            <constraint firstAttribute="height" constant="20" id="ldu-Z5-peL"/>
+                                            <constraint firstAttribute="trailing" secondItem="bwt-qW-Hfr" secondAttribute="trailing" id="m7z-CX-F1h"/>
+                                            <constraint firstItem="bwt-qW-Hfr" firstAttribute="leading" secondItem="CRE-Kk-qpr" secondAttribute="leading" id="pSA-O1-kcB"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You’re a Consumer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5S-LL-uer">
+                                        <rect key="frame" x="0.0" y="36" width="329" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rf-na-5Wb">
+                                        <rect key="frame" x="8" y="73" width="313" height="101.66666666666669"/>
+                                        <string key="text">As a consumer, you want to shop the marketplace and see what Vendevry has to offer. Browse the marketplace on your own or use a referral code to access a specific reseller’s store.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.57647058823529407" green="0.99607843137254903" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="W5S-LL-uer" secondAttribute="trailing" id="1O3-aZ-e9B"/>
+                                    <constraint firstItem="0rf-na-5Wb" firstAttribute="leading" secondItem="1At-u8-w7Q" secondAttribute="leading" constant="8" id="2cj-6x-DYa"/>
+                                    <constraint firstItem="W5S-LL-uer" firstAttribute="leading" secondItem="1At-u8-w7Q" secondAttribute="leading" id="7Mo-Zg-6A1"/>
+                                    <constraint firstAttribute="trailing" secondItem="0rf-na-5Wb" secondAttribute="trailing" constant="8" id="JVj-f8-Wcl"/>
+                                    <constraint firstItem="W5S-LL-uer" firstAttribute="top" secondItem="CRE-Kk-qpr" secondAttribute="bottom" constant="8" id="Snl-jy-NDI"/>
+                                    <constraint firstAttribute="height" constant="270" id="eah-gX-IKQ"/>
+                                    <constraint firstItem="0rf-na-5Wb" firstAttribute="top" secondItem="W5S-LL-uer" secondAttribute="bottom" constant="7" id="fLS-FN-s5j"/>
+                                    <constraint firstItem="CRE-Kk-qpr" firstAttribute="top" secondItem="1At-u8-w7Q" secondAttribute="top" constant="8" id="gj7-Ld-OxO"/>
+                                    <constraint firstAttribute="trailing" secondItem="CRE-Kk-qpr" secondAttribute="trailing" constant="8" id="vNp-3c-sir"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="placeholderTextColor"/>
+                        <constraints>
+                            <constraint firstItem="1At-u8-w7Q" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="DZH-YJ-m0p"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1At-u8-w7Q" secondAttribute="trailing" constant="32" id="Gn6-gq-kuj"/>
+                            <constraint firstItem="1At-u8-w7Q" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="cwn-1z-WJT"/>
+                            <constraint firstItem="1At-u8-w7Q" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="qdo-1U-GL9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="body" destination="0rf-na-5Wb" id="I20-sM-A70"/>
+                        <outlet property="dissmiss" destination="bwt-qW-Hfr" id="j4R-3d-sy7"/>
+                        <outlet property="titleHeader" destination="W5S-LL-uer" id="7Zl-Ec-3Lc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49.618320610687022" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close" width="9" height="16"/>
+        <systemColor name="placeholderTextColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

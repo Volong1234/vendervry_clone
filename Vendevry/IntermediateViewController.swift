@@ -49,4 +49,24 @@ class IntermediateViewController: BaseVC {
         
     }
     
+    
+    func showPopup(_case: Int) {
+        let vc = UIStoryboard(name: "popupController", bundle: nil).instantiateViewController(identifier: "popupViewController") as! popupViewController
+        vc.enumCheck = _case
+        Presenter.presentPopupViewController(vc)
+    }
+    
+    @IBAction func questionConsumer(_ sender: Any) {
+        showPopup(_case: 0)
+       
+    }
+    
+    
+    @IBAction func reseller(_ sender: Any) {
+        showPopup(_case: 1)
+    }
+    
+    @IBAction func vendor(_ sender: Any) {
+        showPopup(_case: 2)
+    }
 }

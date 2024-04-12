@@ -27,6 +27,9 @@
 		118970762BC7A28E00AE010A /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118970752BC7A28E00AE010A /* BaseVC.swift */; };
 		11F9F55F2BC8DA4000F8D1CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F9F55E2BC8DA4000F8D1CD /* LoginViewController.swift */; };
 		11F9F5612BC8DB6800F8D1CD /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F9F5602BC8DB6800F8D1CD /* LoginViewController.storyboard */; };
+		11F9F5662BC925B300F8D1CD /* popupController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F9F5652BC925B300F8D1CD /* popupController.storyboard */; };
+		11F9F5692BC9266600F8D1CD /* popupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F9F5682BC9266600F8D1CD /* popupViewController.swift */; };
+		11F9F56B2BC92DCC00F8D1CD /* BasePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F9F56A2BC92DCC00F8D1CD /* BasePopup.swift */; };
 		1C83E8BA066AD3C68F0EB3A6 /* Pods_VendevryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68A01CBC047ECC0E7396783 /* Pods_VendevryTests.framework */; };
 		7437EF5F5C372E4F58B88625 /* Pods_Vendevry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD2BFC669109228733C0AE /* Pods_Vendevry.framework */; };
 		945AC3D23CBB2C3B1FC81903 /* Pods_Vendevry_VendevryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A32F376FED7E0E0155DA2A /* Pods_Vendevry_VendevryUITests.framework */; };
@@ -75,6 +78,9 @@
 		118970752BC7A28E00AE010A /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		11F9F55E2BC8DA4000F8D1CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		11F9F5602BC8DB6800F8D1CD /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		11F9F5652BC925B300F8D1CD /* popupController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = popupController.storyboard; sourceTree = "<group>"; };
+		11F9F5682BC9266600F8D1CD /* popupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupViewController.swift; sourceTree = "<group>"; };
+		11F9F56A2BC92DCC00F8D1CD /* BasePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePopup.swift; sourceTree = "<group>"; };
 		1936C7060008238941DF9067 /* Pods-Vendevry-VendevryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendevry-VendevryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Vendevry-VendevryUITests/Pods-Vendevry-VendevryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FD2E26071DBAE40775C3D10 /* Pods-VendevryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendevryTests.release.xcconfig"; path = "Target Support Files/Pods-VendevryTests/Pods-VendevryTests.release.xcconfig"; sourceTree = "<group>"; };
 		B058B5427516A2D7DC094B77 /* Pods-Vendevry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendevry.release.xcconfig"; path = "Target Support Files/Pods-Vendevry/Pods-Vendevry.release.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +190,7 @@
 		114081062BC67DCF00BF3DD6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				11F9F5672BC9262A00F8D1CD /* popup */,
 				114080D12BC6424100BF3DD6 /* ViewController.swift */,
 				118970662BC7875E00AE010A /* IntermediateViewController.swift */,
 				11F9F55E2BC8DA4000F8D1CD /* LoginViewController.swift */,
@@ -194,6 +201,7 @@
 		1189706A2BC7879C00AE010A /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				11F9F5622BC9258300F8D1CD /* popup */,
 				118970722BC7927E00AE010A /* Intermediate.storyboard */,
 				11F9F5602BC8DB6800F8D1CD /* LoginViewController.storyboard */,
 			);
@@ -213,8 +221,25 @@
 			isa = PBXGroup;
 			children = (
 				118970752BC7A28E00AE010A /* BaseVC.swift */,
+				11F9F56A2BC92DCC00F8D1CD /* BasePopup.swift */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		11F9F5622BC9258300F8D1CD /* popup */ = {
+			isa = PBXGroup;
+			children = (
+				11F9F5652BC925B300F8D1CD /* popupController.storyboard */,
+			);
+			path = popup;
+			sourceTree = "<group>";
+		};
+		11F9F5672BC9262A00F8D1CD /* popup */ = {
+			isa = PBXGroup;
+			children = (
+				11F9F5682BC9266600F8D1CD /* popupViewController.swift */,
+			);
+			name = popup;
 			sourceTree = "<group>";
 		};
 		1468758191E8C2450955D759 /* Pods */ = {
@@ -352,6 +377,7 @@
 				11F9F5612BC8DB6800F8D1CD /* LoginViewController.storyboard in Resources */,
 				114080D72BC6424200BF3DD6 /* Assets.xcassets in Resources */,
 				114080D52BC6424100BF3DD6 /* Main.storyboard in Resources */,
+				11F9F5662BC925B300F8D1CD /* popupController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,12 +472,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F9F55F2BC8DA4000F8D1CD /* LoginViewController.swift in Sources */,
+				11F9F56B2BC92DCC00F8D1CD /* BasePopup.swift in Sources */,
 				1189706F2BC78B4400AE010A /* CustomNavigationController.swift in Sources */,
 				118970762BC7A28E00AE010A /* BaseVC.swift in Sources */,
 				114080D22BC6424100BF3DD6 /* ViewController.swift in Sources */,
 				114081052BC679F400BF3DD6 /* AppSound.swift in Sources */,
 				114081012BC679E600BF3DD6 /* AppFont.swift in Sources */,
 				114080FF2BC679C500BF3DD6 /* AppColor.swift in Sources */,
+				11F9F5692BC9266600F8D1CD /* popupViewController.swift in Sources */,
 				1189706D2BC789CB00AE010A /* Presenter.swift in Sources */,
 				114080CE2BC6424100BF3DD6 /* AppDelegate.swift in Sources */,
 				114080D02BC6424100BF3DD6 /* SceneDelegate.swift in Sources */,
