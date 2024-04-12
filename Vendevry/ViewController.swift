@@ -30,6 +30,11 @@ class ViewController: UIViewController {
         signupButton.layer.cornerRadius = 22
     }
     
+    func pushLogin(_isCheck: Bool){
+        let vc = UIStoryboard(name: "Intermediate", bundle: nil).instantiateViewController(identifier: "IntermediateViewController") as! IntermediateViewController
+        vc.isResgiter = _isCheck
+        Presenter.presentViewController(vc, animated: true)
+    }
     
     @IBAction func login(_ sender: Any) {
         loginButton.backgroundColor = .white
@@ -37,9 +42,8 @@ class ViewController: UIViewController {
         signupButton.backgroundColor = nil
         signupButton.setTitleColor(.white, for: .normal)
         
+        pushLogin(_isCheck: false)
         
-        let vc = UIStoryboard(name: "Intermediate", bundle: nil).instantiateViewController(identifier: "IntermediateViewController") as! IntermediateViewController
-        Presenter.presentViewController(vc, animated: true)
     }
     
     @IBAction func sign_up(_ sender: Any) {
@@ -47,6 +51,7 @@ class ViewController: UIViewController {
         signupButton.setTitleColor(.black, for: .normal)
         loginButton.backgroundColor = nil
         loginButton.setTitleColor(.white, for: .normal)
+        pushLogin(_isCheck: true)
     }
 }
 

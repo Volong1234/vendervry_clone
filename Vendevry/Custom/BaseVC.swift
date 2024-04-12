@@ -20,10 +20,14 @@ class BaseVC: UIViewController {
         let button = UIButton(type: .system)
         let imageName = isTrue ? "Icon_back" : "Icon _close"
         if let image = UIImage(named: imageName) {
-                    let templateImage = image.withRenderingMode(.alwaysTemplate)
-                    button.setImage(templateImage, for: .normal)
-                    button.tintColor = .white
-                }
+            let templateImage = image.withRenderingMode(.alwaysTemplate)
+            button.setImage(templateImage, for: .normal)
+            if isTrue {
+                button.tintColor = .white
+            } else {
+                button.tintColor = .black
+            }
+        }
         button.frame = CGRect(x: 8, y: 32, width: 40, height: 40)
         button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
         view.addSubview(button)
