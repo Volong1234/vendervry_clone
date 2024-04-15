@@ -35,10 +35,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 UITableView.appearance().isPrefetchingEnabled = false
             }
         }
+    
+    func updateTabbar(){
+            UITabBar.appearance().barTintColor = .white
+            UITabBar.appearance().tintColor = .green
+            UITabBar.appearance().frame.size.height = 60
+    }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         Presenter.window = self.window
         updateTheme()
+       // updateTabbar()
         return true
     }
 
