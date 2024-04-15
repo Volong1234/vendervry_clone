@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -30,11 +31,22 @@
                                                     <action selector="pushProduct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="8H7-3H-izr"/>
                                                 </connections>
                                             </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d6h-tL-Yk3" customClass="FloatingTextFiledPlaceHolder" customModule="Vendevry" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="200" width="361" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="zIX-wc-KWH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="Nxm-kH-ljT" firstAttribute="centerY" secondItem="90z-XY-9Dk" secondAttribute="centerY" id="3Rb-NL-OlS"/>
                                             <constraint firstItem="Nxm-kH-ljT" firstAttribute="centerX" secondItem="90z-XY-9Dk" secondAttribute="centerX" id="ewg-k4-sdX"/>
+                                            <constraint firstAttribute="trailing" secondItem="d6h-tL-Yk3" secondAttribute="trailing" constant="16" id="vOb-C6-PZ2"/>
+                                            <constraint firstItem="d6h-tL-Yk3" firstAttribute="leading" secondItem="90z-XY-9Dk" secondAttribute="leading" constant="16" id="xj3-vf-Onk"/>
+                                            <constraint firstItem="d6h-tL-Yk3" firstAttribute="top" secondItem="90z-XY-9Dk" secondAttribute="top" constant="200" id="yxU-mz-uH9"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -57,6 +69,9 @@
                             <constraint firstAttribute="bottom" secondItem="Mq2-Wk-h96" secondAttribute="bottom" id="q1Q-7I-DY3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textfield" destination="d6h-tL-Yk3" id="pbq-MV-jG9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

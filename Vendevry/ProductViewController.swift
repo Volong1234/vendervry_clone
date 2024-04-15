@@ -23,6 +23,7 @@ class ProductViewController: UITabBarController {
         
         // Thiết lập chiều cao của tab bar
         self.tabBar.frame.size.height = 60
+        tabBar.backgroundColor = .white
         
         // Thiết lập hình ảnh cho các item trên tab bar
         guard let items = self.tabBar.items else { return }
@@ -36,7 +37,7 @@ class ProductViewController: UITabBarController {
 class HomeVC: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .lightGray
+        view.backgroundColor = .green
     }
 }
 

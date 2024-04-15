@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Vendevry-VendevryUITests/Pods-Vendevry-VendevryUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FontAwesome/FontAwesome.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0439E65F2BCD5240009326B3 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439E65E2BCD5240009326B3 /* FloatingTextField.swift */; };
+		0439E6612BCD58BF009326B3 /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0439E6602BCD58BF009326B3 /* Tabbar.storyboard */; };
+		0439E6652BCD5933009326B3 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439E6642BCD5933009326B3 /* TabbarVC.swift */; };
 		114080CE2BC6424100BF3DD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080CD2BC6424100BF3DD6 /* AppDelegate.swift */; };
 		114080D02BC6424100BF3DD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080CF2BC6424100BF3DD6 /* SceneDelegate.swift */; };
 		114080D22BC6424100BF3DD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080D12BC6424100BF3DD6 /* ViewController.swift */; };
@@ -16,10 +19,6 @@
 		114080E52BC6424200BF3DD6 /* VendevryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080E42BC6424200BF3DD6 /* VendevryTests.swift */; };
 		114080EF2BC6424200BF3DD6 /* VendevryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080EE2BC6424200BF3DD6 /* VendevryUITests.swift */; };
 		114080F12BC6424200BF3DD6 /* VendevryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080F02BC6424200BF3DD6 /* VendevryUITestsLaunchTests.swift */; };
-		114080FF2BC679C500BF3DD6 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114080FE2BC679C300BF3DD6 /* AppColor.swift */; };
-		114081012BC679E600BF3DD6 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114081002BC679E600BF3DD6 /* AppFont.swift */; };
-		114081032BC679EF00BF3DD6 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114081022BC679EF00BF3DD6 /* AppImage.swift */; };
-		114081052BC679F400BF3DD6 /* AppSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114081042BC679F400BF3DD6 /* AppSound.swift */; };
 		118970682BC7875E00AE010A /* IntermediateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118970662BC7875E00AE010A /* IntermediateViewController.swift */; };
 		1189706D2BC789CB00AE010A /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189706C2BC789CB00AE010A /* Presenter.swift */; };
 		1189706F2BC78B4400AE010A /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189706E2BC78B4400AE010A /* CustomNavigationController.swift */; };
@@ -58,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0439E65E2BCD5240009326B3 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
+		0439E6602BCD58BF009326B3 /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		0439E6642BCD5933009326B3 /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
 		04FD2BFC669109228733C0AE /* Pods_Vendevry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vendevry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		114080CA2BC6424100BF3DD6 /* Vendevry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vendevry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		114080CD2BC6424100BF3DD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,10 +74,6 @@
 		114080EA2BC6424200BF3DD6 /* VendevryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendevryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		114080EE2BC6424200BF3DD6 /* VendevryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendevryUITests.swift; sourceTree = "<group>"; };
 		114080F02BC6424200BF3DD6 /* VendevryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendevryUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		114080FE2BC679C300BF3DD6 /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppColor.swift; path = ../../../Core/Core/Classes/Resources/AppColor.swift; sourceTree = "<group>"; };
-		114081002BC679E600BF3DD6 /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppFont.swift; path = ../../../Core/Core/Classes/Resources/AppFont.swift; sourceTree = "<group>"; };
-		114081022BC679EF00BF3DD6 /* AppImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppImage.swift; path = ../../../Core/Core/Classes/Resources/AppImage.swift; sourceTree = "<group>"; };
-		114081042BC679F400BF3DD6 /* AppSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSound.swift; path = ../../../Core/Core/Classes/Resources/AppSound.swift; sourceTree = "<group>"; };
 		118970662BC7875E00AE010A /* IntermediateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateViewController.swift; sourceTree = "<group>"; };
 		1189706C2BC789CB00AE010A /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		1189706E2BC78B4400AE010A /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
@@ -158,7 +156,6 @@
 				1189706B2BC7897F00AE010A /* Core */,
 				1189706A2BC7879C00AE010A /* Storyboard */,
 				114081062BC67DCF00BF3DD6 /* ViewController */,
-				114080FD2BC674F900BF3DD6 /* Config */,
 				114080CD2BC6424100BF3DD6 /* AppDelegate.swift */,
 				114080CF2BC6424100BF3DD6 /* SceneDelegate.swift */,
 				114080D32BC6424100BF3DD6 /* Main.storyboard */,
@@ -184,17 +181,6 @@
 				114080F02BC6424200BF3DD6 /* VendevryUITestsLaunchTests.swift */,
 			);
 			path = VendevryUITests;
-			sourceTree = "<group>";
-		};
-		114080FD2BC674F900BF3DD6 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				114081042BC679F400BF3DD6 /* AppSound.swift */,
-				114081022BC679EF00BF3DD6 /* AppImage.swift */,
-				114081002BC679E600BF3DD6 /* AppFont.swift */,
-				114080FE2BC679C300BF3DD6 /* AppColor.swift */,
-			);
-			path = Config;
 			sourceTree = "<group>";
 		};
 		114081062BC67DCF00BF3DD6 /* ViewController */ = {
@@ -227,6 +213,7 @@
 			children = (
 				1189706C2BC789CB00AE010A /* Presenter.swift */,
 				1189706E2BC78B4400AE010A /* CustomNavigationController.swift */,
+				0439E65E2BCD5240009326B3 /* FloatingTextField.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -237,6 +224,8 @@
 				118970752BC7A28E00AE010A /* BaseVC.swift */,
 				11F9F56A2BC92DCC00F8D1CD /* BasePopup.swift */,
 				11F9F57A2BCCD44B00F8D1CD /* BaseProductVc.swift */,
+				0439E6602BCD58BF009326B3 /* Tabbar.storyboard */,
+				0439E6642BCD5933009326B3 /* TabbarVC.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -419,6 +408,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0439E6612BCD58BF009326B3 /* Tabbar.storyboard in Resources */,
 				114080DA2BC6424200BF3DD6 /* LaunchScreen.storyboard in Resources */,
 				118970732BC7927E00AE010A /* Intermediate.storyboard in Resources */,
 				11F9F5612BC8DB6800F8D1CD /* LoginViewController.storyboard in Resources */,
@@ -526,17 +516,15 @@
 				11F9F57B2BCCD44B00F8D1CD /* BaseProductVc.swift in Sources */,
 				118970762BC7A28E00AE010A /* BaseVC.swift in Sources */,
 				114080D22BC6424100BF3DD6 /* ViewController.swift in Sources */,
-				114081052BC679F400BF3DD6 /* AppSound.swift in Sources */,
 				11F9F5752BCCCC3100F8D1CD /* ProductViewController.swift in Sources */,
-				114081012BC679E600BF3DD6 /* AppFont.swift in Sources */,
-				114080FF2BC679C500BF3DD6 /* AppColor.swift in Sources */,
 				11F9F56E2BC9493200F8D1CD /* NeedHelpViewController.swift in Sources */,
 				11F9F5692BC9266600F8D1CD /* popupViewController.swift in Sources */,
 				1189706D2BC789CB00AE010A /* Presenter.swift in Sources */,
 				114080CE2BC6424100BF3DD6 /* AppDelegate.swift in Sources */,
+				0439E65F2BCD5240009326B3 /* FloatingTextField.swift in Sources */,
 				114080D02BC6424100BF3DD6 /* SceneDelegate.swift in Sources */,
 				118970682BC7875E00AE010A /* IntermediateViewController.swift in Sources */,
-				114081032BC679EF00BF3DD6 /* AppImage.swift in Sources */,
+				0439E6652BCD5933009326B3 /* TabbarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,7 +632,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -701,7 +689,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -730,9 +718,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Vendevry.Vendevry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -758,9 +750,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Vendevry.Vendevry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

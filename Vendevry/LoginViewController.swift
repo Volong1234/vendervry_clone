@@ -9,9 +9,12 @@ import UIKit
 
 class LoginViewController: BaseVC {
 
+    @IBOutlet weak var textfield: FloatingTextFiledPlaceHolder!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        textfield.title = "ProductViewController"
+        textfield.placeholder = "ProductViewController"
     }
     
     
